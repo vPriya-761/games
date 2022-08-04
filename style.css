@@ -1,0 +1,108 @@
+
+.start-btn{
+    font-size: 30px;
+    font-weight: 500;
+    /* color: #007bff; */
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    /* background: #fff; */
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #clock {
+	width: 300px;
+	/* height: 300px; */
+	/* border-radius: 50%; */
+	/* background-color: lightgrey; */
+	margin: auto;
+    border: "1px solid gray";
+    padding: 5;
+}
+
+span {
+	display: block;
+	/* width: 100%; */
+	margin: auto;
+	/* padding-top: 60px; */
+	text-align: center;
+	font-size: 50px;
+}
+.user-name {
+  color: #333;
+}
+.text-ellipsis {
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.m-t-10 {
+  margin-top: 10px !important;
+}
+.mb-0 {
+  margin-bottom: 0!important;
+}
+.mb-0 {
+  margin-bottom: 0!important;
+}
+
+h4, .h4 {
+  font-size: 1.125rem;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: CircularStd;
+  margin-top: 0;
+  font-weight: 500;
+}
+.text-muted {
+  color: #8e8e8e !important;
+}
+.small, small {
+  font-size: .875em;
+}
